@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: tomcat
-        image: kiwibb/tomcat2:latest
+        image: kiwibb/mytomcat2:db765de78b80a6c68a8d891060d5d4a9b57737ba
         ports:
         - containerPort: 8080
         imagePullPolicy: Always
