@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: tomcat
-        image: vehuiah/tomcat2:latest
+        image: kiwibb/tomcat2:latest
         ports:
         - containerPort: 8080
         imagePullPolicy: Always
