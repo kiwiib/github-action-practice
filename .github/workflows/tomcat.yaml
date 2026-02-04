@@ -26,7 +26,7 @@ jobs:
         run: |
           docker push ${{ secrets.DOCKERHUB_USERNAME }}/mytomcat2:latest
 
-      - name: k8s manifest
+      - name: k8s manifestt
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
